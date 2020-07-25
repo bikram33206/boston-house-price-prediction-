@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.externals import joblib 
   
 # Load the model from the file 
-Boston = joblib.load('C:/Users/Acer/Desktop/bOSTON/boston.pkl')  
+Boston = joblib.load('boston.pkl')  
   
 # Use the loaded model to make predictions 
 #Boston.predict(X_test) 
